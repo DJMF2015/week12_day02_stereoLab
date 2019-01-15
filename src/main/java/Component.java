@@ -8,4 +8,11 @@ public abstract class Component {
         this.model = model;
     }
 
+    public String getMake() {
+        return make;
+    }
+
+    public String getModel() {
+        return model;
+    }
 }
